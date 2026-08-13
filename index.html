@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planeta Electrónico — Tienda de electrónica y componentes online</title>
+<meta name="description" content="Tienda online de electrónica y componentes electrónicos en Málaga desde 2002. Cables y conectores, herramientas, iluminación, kits, multimedia, seguridad y servicio técnico. Envíos a toda España, Europa y el resto del mundo.">
+<meta name="theme-color" content="#060a11">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23060a11'/%3E%3Cellipse cx='16' cy='16' rx='13' ry='5.5' fill='none' stroke='%238a7dff' stroke-width='1.2' transform='rotate(-24 16 16)'/%3E%3Ccircle cx='16' cy='16' r='6.5' fill='%2321f2b6'/%3E%3Ccircle cx='27' cy='11' r='2' fill='%23ffb454'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="bg-fx" aria-hidden="true"></div>
+
+<!-- sprite de iconos -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="ic-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></symbol>
+<symbol id="ic-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></symbol>
+<symbol id="ic-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ic-external" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ic-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ic-whatsapp" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 01-8.5 8.5c-1.2 0-2.4-.3-3.4-.8L4 20l1-4.9A8.5 8.5 0 1121 11.5z" stroke-linejoin="round"/><path d="M8.6 10.6c.4 2.4 2.4 4.4 4.8 4.8" stroke-linecap="round"/></symbol>
+<symbol id="ic-calendar" viewBox="0 0 24 24"><path d="M4 5h16v16H4z" stroke-linejoin="round"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke-linecap="round"/></symbol>
+<symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8.4-8 9-4.5-.6-8-4-8-9V6l8-3z" stroke-linejoin="round"/><path d="M8.5 12l2.3 2.3L15.5 10" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ic-truck" viewBox="0 0 24 24"><path d="M3 7h11v9H3z" stroke-linejoin="round"/><path d="M14 11h4l3 3v2h-7z" stroke-linejoin="round"/><circle cx="7" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/></symbol>
+<symbol id="ic-tag" viewBox="0 0 24 24"><path d="M20 12.5L12.5 20 3 10.5V3h7.5L20 12.5z" stroke-linejoin="round"/><circle cx="7.5" cy="7.5" r="1.4"/></symbol>
+<symbol id="ic-headset" viewBox="0 0 24 24"><path d="M4 13v-1a8 8 0 0116 0v1" stroke-linecap="round"/><path d="M4 13a2 2 0 012-2h1v6H6a2 2 0 01-2-2v-2zM20 13a2 2 0 00-2-2h-1v6h1a2 2 0 002-2v-2z" stroke-linejoin="round"/><path d="M18 17.5c0 1.4-1.6 2.5-4 2.5" stroke-linecap="round"/></symbol>
+<symbol id="ic-star" viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.1.6-4.6 4.1 1.3 6-5.4-3.1L6.6 19.3l1.3-6L3.3 9.2l6.1-.6L12 3z" stroke-linejoin="round"/></symbol>
+<symbol id="ic-card" viewBox="0 0 24 24"><path d="M3 6h18v12H3z" stroke-linejoin="round"/><path d="M3 10h18M6 15h4" stroke-linecap="round"/></symbol>
+<symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.6 7-11.5A7 7 0 105 9.5C5 14.4 12 21 12 21z" stroke-linejoin="round"/><circle cx="12" cy="12" r="2.4"/></symbol>
+<symbol id="ic-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.5 15.5 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11.6 21 3 12.4 3 2.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke-linejoin="round"/></symbol>
+<symbol id="ic-mail" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1z" stroke-linejoin="round"/><path d="M3.5 6.5l8.5 6 8.5-6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ic-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs>
+</svg>
+
+<header class="site-header">
+  <div class="container">
+    <a href="#inicio" class="brand">
+      <span class="orbit-mark" aria-hidden="true"><span class="ring"></span><span class="planet"></span><span class="electron"></span></span>
+      <span>Planeta<br><small>Electrónico · desde 2002</small></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#novedades">Novedades</a></li>
+        <li><a href="#marcas">Marcas</a></li>
+        <li><a href="#confianza">Confianza</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-whatsapp" href="https://wa.me/34601394075" target="_blank" rel="noopener">
+        <svg width="16" height="16"><use href="#ic-whatsapp"/></svg><span>601 394 075</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <svg width="18" height="18"><use href="#ic-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <div class="hero-copy">
+        <span class="eyebrow">Tienda electrónica online · Málaga, España</span>
+        <h1>
+          <span class="line">Sabemos.</span>
+          <span class="line accent">Jugamos.</span>
+          <span class="line accent2">Consumimos electrónica.</span>
+        </h1>
+        <p class="lead">Distribución de componentes electrónicos, cables y conectores, herramientas, iluminación, kits, multimedia y seguridad. Importadores directos de las mejores marcas del sector, con envíos asegurados a toda España, Europa y el resto del mundo.</p>
+        <div class="cta-row">
+          <a href="#novedades" class="btn btn-primary">Ver catálogo <svg><use href="#ic-arrow-right"/></svg></a>
+          <a href="https://wa.me/34601394075" target="_blank" rel="noopener" class="btn btn-whatsapp"><svg><use href="#ic-whatsapp"/></svg> Habla por WhatsApp</a>
+        </div>
+
+        <div class="stat-strip">
+          <div><div class="num"><span>23</span> años</div><div class="lbl">De experiencia en electrónica, desde 2002</div></div>
+          <div><div class="num"><span>2</span> años</div><div class="lbl">De garantía en todos los productos</div></div>
+          <div><div class="num"><span>16</span> marcas</div><div class="lbl">Distribuidas de forma directa</div></div>
+          <div><div class="num"><span>100%</span></div><div class="lbl">Envíos asegurados a su valor de nuevo</div></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hv-ring r3"></div>
+        <div class="hv-ring r2"></div>
+        <div class="hv-ring r1"></div>
+        <div class="hv-core"></div>
+        <div class="hv-electron e1"></div>
+        <div class="hv-electron e2"></div>
+        <div class="hv-electron e3"></div>
+        <div class="hv-chip c1"><b>Cod. 21957</b>Fusible SMD · 1,00&nbsp;€</div>
+        <div class="hv-chip c2"><b>Envío 24/48h</b>Pedidos antes de 13:30h</div>
+        <div class="hv-chip c3"><b>tienda@planetaelectronico.com</b>Atención por WhatsApp y tienda física</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MARCAS (marquee superior) ================= -->
+  <section class="tight" aria-label="Marcas distribuidas">
+    <div class="container">
+      <div class="marquee-wrap">
+        <div class="marquee" id="marquee-top">
+          <a href="https://planetaelectronico.com/velleman-m-123.html" target="_blank" rel="noopener" title="VELLEMAN"><img src="assets/img/marcas/Marca_velleman_thumb_115x26.png" alt="VELLEMAN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/liquidacion-electronica-m-141.html" target="_blank" rel="noopener" title="LIQUIDACIÓN ELECTRÓNICA"><img src="assets/img/marcas/Marca_Liquidacion_thumb_115x26.png" alt="LIQUIDACIÓN ELECTRÓNICA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/intronic-m-139.html" target="_blank" rel="noopener" title="INTRONIC"><img src="assets/img/marcas/Marca_Intronic_thumb_115x26.png" alt="INTRONIC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/tx-sistemas-m-138.html" target="_blank" rel="noopener" title="TX SISTEMAS"><img src="assets/img/marcas/Marca_TX_thumb_115x26.png" alt="TX SISTEMAS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/denver-m-137.html" target="_blank" rel="noopener" title="DENVER"><img src="assets/img/marcas/Marca_denver_thumb_115x26.png" alt="DENVER" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fersay-m-136.html" target="_blank" rel="noopener" title="FERSAY"><img src="assets/img/marcas/Marca_Fersay_thumb_115x26.png" alt="FERSAY" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/cebek-m-133.html" target="_blank" rel="noopener" title="CEBEK"><img src="assets/img/marcas/0_Marca_cebek_thumb_115x26.png" alt="CEBEK" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/molgar-m-132.html" target="_blank" rel="noopener" title="MOLGAR"><img src="assets/img/marcas/Marca_molgar_thumb_115x26.png" alt="MOLGAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/nedis-m-131.html" target="_blank" rel="noopener" title="NEDIS"><img src="assets/img/marcas/Marca_nedis_thumb_115x26.png" alt="NEDIS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/importacion-m-130.html" target="_blank" rel="noopener" title="IMPORTACIÓN"><img src="assets/img/marcas/Marca_importacion_thumb_115x26.png" alt="IMPORTACIÓN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/dimelec-m-129.html" target="_blank" rel="noopener" title="DIMELEC"><img src="assets/img/marcas/Marca_dimelec_thumb_115x26.png" alt="DIMELEC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/edc-andalucia-m-128.html" target="_blank" rel="noopener" title="EDC ANDALUCÍA"><img src="assets/img/marcas/Marca_edc_thumb_115x26.png" alt="EDC ANDALUCÍA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fonestar-m-126.html" target="_blank" rel="noopener" title="FONESTAR"><img src="assets/img/marcas/0_Marca_fonestar_thumb_115x26.png" alt="FONESTAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/ariston-m-125.html" target="_blank" rel="noopener" title="ARISTON"><img src="assets/img/marcas/Marca_ariston_thumb_115x26.png" alt="ARISTON" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/electro-dh-m-124.html" target="_blank" rel="noopener" title="ELECTRO DH"><img src="assets/img/marcas/Marca_electrodh_thumb_115x26.png" alt="ELECTRO DH" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/peaktech-m-142.html" target="_blank" rel="noopener" title="PEAKTECH"><img src="assets/img/marcas/Marca_Pektech_thumb_115x26.png" alt="PEAKTECH" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/velleman-m-123.html" target="_blank" rel="noopener" title="VELLEMAN"><img src="assets/img/marcas/Marca_velleman_thumb_115x26.png" alt="VELLEMAN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/liquidacion-electronica-m-141.html" target="_blank" rel="noopener" title="LIQUIDACIÓN ELECTRÓNICA"><img src="assets/img/marcas/Marca_Liquidacion_thumb_115x26.png" alt="LIQUIDACIÓN ELECTRÓNICA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/intronic-m-139.html" target="_blank" rel="noopener" title="INTRONIC"><img src="assets/img/marcas/Marca_Intronic_thumb_115x26.png" alt="INTRONIC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/tx-sistemas-m-138.html" target="_blank" rel="noopener" title="TX SISTEMAS"><img src="assets/img/marcas/Marca_TX_thumb_115x26.png" alt="TX SISTEMAS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/denver-m-137.html" target="_blank" rel="noopener" title="DENVER"><img src="assets/img/marcas/Marca_denver_thumb_115x26.png" alt="DENVER" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fersay-m-136.html" target="_blank" rel="noopener" title="FERSAY"><img src="assets/img/marcas/Marca_Fersay_thumb_115x26.png" alt="FERSAY" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/cebek-m-133.html" target="_blank" rel="noopener" title="CEBEK"><img src="assets/img/marcas/0_Marca_cebek_thumb_115x26.png" alt="CEBEK" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/molgar-m-132.html" target="_blank" rel="noopener" title="MOLGAR"><img src="assets/img/marcas/Marca_molgar_thumb_115x26.png" alt="MOLGAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/nedis-m-131.html" target="_blank" rel="noopener" title="NEDIS"><img src="assets/img/marcas/Marca_nedis_thumb_115x26.png" alt="NEDIS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/importacion-m-130.html" target="_blank" rel="noopener" title="IMPORTACIÓN"><img src="assets/img/marcas/Marca_importacion_thumb_115x26.png" alt="IMPORTACIÓN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/dimelec-m-129.html" target="_blank" rel="noopener" title="DIMELEC"><img src="assets/img/marcas/Marca_dimelec_thumb_115x26.png" alt="DIMELEC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/edc-andalucia-m-128.html" target="_blank" rel="noopener" title="EDC ANDALUCÍA"><img src="assets/img/marcas/Marca_edc_thumb_115x26.png" alt="EDC ANDALUCÍA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fonestar-m-126.html" target="_blank" rel="noopener" title="FONESTAR"><img src="assets/img/marcas/0_Marca_fonestar_thumb_115x26.png" alt="FONESTAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/ariston-m-125.html" target="_blank" rel="noopener" title="ARISTON"><img src="assets/img/marcas/Marca_ariston_thumb_115x26.png" alt="ARISTON" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/electro-dh-m-124.html" target="_blank" rel="noopener" title="ELECTRO DH"><img src="assets/img/marcas/Marca_electrodh_thumb_115x26.png" alt="ELECTRO DH" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/peaktech-m-142.html" target="_blank" rel="noopener" title="PEAKTECH"><img src="assets/img/marcas/Marca_Pektech_thumb_115x26.png" alt="PEAKTECH" loading="lazy"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CATEGORÍAS ================= -->
+  <section id="categorias">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Catálogo</span>
+        <h2>Todas las categorías</h2>
+        <p>Del componente más pequeño a la instalación más completa. Explorá el catálogo completo de Planeta Electrónico, organizado como en la tienda original.</p>
+      </div>
+
+      <div class="cat-grid reveal">
+        <a class="cat-card" href="https://planetaelectronico.com/automocion-c-144.html" target="_blank" rel="noopener"><span class="cat-tag">U01</span><h3>Automoción</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/cables-conectores-c-141.html" target="_blank" rel="noopener"><span class="cat-tag">U02</span><h3>Cables y Conectores</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/componentes-electronicos-c-147.html" target="_blank" rel="noopener"><span class="cat-tag">U03</span><h3>Componentes electrónicos</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/energia-c-143.html" target="_blank" rel="noopener"><span class="cat-tag">U04</span><h3>Energía</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/herramientas-c-145.html" target="_blank" rel="noopener"><span class="cat-tag">R01</span><h3>Herramientas</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/hogar-oficina-c-137.html" target="_blank" rel="noopener"><span class="cat-tag">R02</span><h3>Hogar / Oficina</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/iluminacion-c-138.html" target="_blank" rel="noopener"><span class="cat-tag">L01</span><h3>Iluminación</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/kit-electronicos-c-146.html" target="_blank" rel="noopener"><span class="cat-tag">K01</span><h3>Kits electrónicos</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/multimedia-c-140.html" target="_blank" rel="noopener"><span class="cat-tag">M01</span><h3>Multimedia</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/seguridad-c-142.html" target="_blank" rel="noopener"><span class="cat-tag">S01</span><h3>Seguridad</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/servicio-tecnico-c-1248.html" target="_blank" rel="noopener"><span class="cat-tag">T01</span><h3>Servicio Técnico</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/video-audio-c-139.html" target="_blank" rel="noopener"><span class="cat-tag">A01</span><h3>Vídeo y Audio</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/la-vuelta-al-cole-electronico-c-245.html" target="_blank" rel="noopener"><span class="cat-tag">B01</span><h3>Vuelta al cole</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/halloween-c-319.html" target="_blank" rel="noopener"><span class="cat-tag">H01</span><h3>Halloween</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">BF1</span><h3>Black Friday</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">LQ1</span><h3>Liquidación de electrónica</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">DP1</span><h3>Diseños propios</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">DC1</span><h3>Descatalogado</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">SH1</span><h3>Sennheiser</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">NV1</span><h3>Navidad</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">RM1</span><h3>Reyes Magos</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">VR1</span><h3>Verano</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+        <a class="cat-card" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener"><span class="cat-tag">ZC1</span><h3>Zancos</h3><span class="go">Ver productos <svg width="12" height="12"><use href="#ic-arrow-right"/></svg></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NOVEDADES ================= -->
+  <section id="novedades">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">¡Novedades de la semana!</span>
+        <h2>Recién llegados a la tienda</h2>
+        <p>Una selección real de las últimas altas en catálogo, con precio, referencia e IVA incluido, tal como figuran en la tienda.</p>
+      </div>
+
+      <div class="prod-grid reveal">
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1206-1-1a-6v-fusible-ptc-1-21957_thumb_187x192.png" alt="Fusible SMD 1206 1.1A 6V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21957</span>
+          <h3 class="prod-name">Fusible SMD 1206 1.1A 6V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1206-11a-6v-fusible-ptc-p-21957.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-0805-1-1a-6v-fusible-ptc-1-21956_thumb_187x192.png" alt="Fusible SMD 0805 1.1A 6V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21956</span>
+          <h3 class="prod-name">Fusible SMD 0805 1.1A 6V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-0805-11a-6v-fusible-ptc-p-21956.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-0805-0-5a-6v-fusible-ptc-1-21955_thumb_187x192.png" alt="Fusible SMD 0805 0.5A 6V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21955</span>
+          <h3 class="prod-name">Fusible SMD 0805 0.5A 6V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-0805-05a-6v-fusible-ptc-p-21955.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-3-5a-6v-fusible-ptc-1-21954_thumb_187x192.png" alt="Fusible SMD 1812 3.5A 6V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21954</span>
+          <h3 class="prod-name">Fusible SMD 1812 3.5A 6V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-35a-6v-fusible-ptc-p-21954.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-2-6a-6v-fusible-ptc-1-21953_thumb_187x192.png" alt="Fusible SMD 1812 2.6A 6V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21953</span>
+          <h3 class="prod-name">Fusible SMD 1812 2.6A 6V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-26a-6v-fusible-ptc-p-21953.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-0-2a-30v-fusible-ptc-1-21952_thumb_187x192.png" alt="Fusible SMD 1812 0.2A 30V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21952</span>
+          <h3 class="prod-name">Fusible SMD 1812 0.2A 30V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-02a-30v-fusible-ptc-p-21952.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-1-1a-8v-fusible-ptc-1-21951_thumb_187x192.png" alt="Fusible SMD 1812 1.1A 8V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21951</span>
+          <h3 class="prod-name">Fusible SMD 1812 1.1A 8V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-11a-8v-fusible-ptc-p-21951.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-0-5a-15v-fusible-ptc-1-21950_thumb_187x192.png" alt="Fusible SMD 1812 0.5A 15V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21950</span>
+          <h3 class="prod-name">Fusible SMD 1812 0.5A 15V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-05a-15v-fusible-ptc-p-21950.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-2a-8v-fusible-ptc-1-21949_thumb_187x192.png" alt="Fusible SMD 1812 2A 8V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21949</span>
+          <h3 class="prod-name">Fusible SMD 1812 2A 8V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-2a-8v-fusible-ptc-p-21949.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/fusible-smd-1812-0-75a-13-2v-fusible-ptc-1-21948_thumb_187x192.png" alt="Fusible SMD 1812 0.75A 13.2V (Fusible PTC)" loading="lazy"></div>
+          <span class="prod-code">Cod. 21948</span>
+          <h3 class="prod-name">Fusible SMD 1812 0.75A 13.2V (Fusible PTC)</h3>
+          <div class="prod-foot"><div><span class="prod-price">1,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/fusible-smd-1812-075a-132v-fusible-ptc-p-21948.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/-1-21947_thumb_187x192.png" alt="Regleta TBW hembra 90º 7.62mm - 6 PIN" loading="lazy"></div>
+          <span class="prod-code">Cod. 21947</span>
+          <h3 class="prod-name">Regleta TBW hembra 90º 7.62mm - 6 PIN</h3>
+          <div class="prod-foot"><div><span class="prod-price">7,30&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/regleta-tbw-hembra-90-762mm-pin-p-21947.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/-1-21946_thumb_187x192.png" alt="Regleta TBW hembra 90º 7.62mm - 5 PIN" loading="lazy"></div>
+          <span class="prod-code">Cod. 21946</span>
+          <h3 class="prod-name">Regleta TBW hembra 90º 7.62mm - 5 PIN</h3>
+          <div class="prod-foot"><div><span class="prod-price">3,18&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/regleta-tbw-hembra-90-762mm-pin-p-21946.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/correa-video-tv-15a-15x1x1mm-1-21143_thumb_187x192.png" alt="Correa video TV.15A (15x1x1mm)" loading="lazy"></div>
+          <span class="prod-code">Ref. RF15A / TV15A · Cod. 21143</span>
+          <h3 class="prod-name">Correa video TV.15A (15x1x1mm)</h3>
+          <div class="prod-foot"><div><span class="prod-price">2,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/correa-video-tv15a-15x1x1mm-p-21143.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/circuito-integrado-3br1065jf-to220-6-1-20180_thumb_187x192.png" alt="Circuito integrado 3BR1065JF (TO220-6)" loading="lazy"></div>
+          <span class="prod-code">Cod. 20180</span>
+          <h3 class="prod-name">Circuito integrado 3BR1065JF (TO220-6)</h3>
+          <div class="prod-foot"><div><span class="prod-price">7,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/circuito-integrado-3br1065jf-to220-p-20180.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/brida-4-7x210mm-natural-100-unidades-1-15305_thumb_187x192.png" alt="Brida 4.7x210mm - natural (100 unidades)" loading="lazy"></div>
+          <span class="prod-code">Ref. 101023 · Cod. 15305</span>
+          <h3 class="prod-name">Brida 4.7x210mm - natural (100 unidades)</h3>
+          <div class="prod-foot"><div><span class="prod-price">2,25&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/brida-47x210mm-natural-100-unidades-p-15305.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/juego-de-100-fusibles-coche-3a-a-30a-con-extractor-1-20851_thumb_187x192.png" alt="Juego de 100 Fusibles coche (3A a 30A) con extractor" loading="lazy"></div>
+          <span class="prod-code">Ref. KPR071 · Cod. 20851</span>
+          <h3 class="prod-name">Juego de 100 Fusibles coche (3A a 30A) con extractor</h3>
+          <div class="prod-foot"><div><span class="prod-price">19,00&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/juego-de-100-fusibles-coche-3a-30a-con-extractor-p-20851.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/auricular-estereo-multimedia-con-microfono-htau018m-1-14926_thumb_187x192.png" alt="Auricular estéreo multimedia con micrófono (HTAU018M)" loading="lazy"></div>
+          <span class="prod-code">Ref. HTAU018M · Cod. 14926</span>
+          <h3 class="prod-name">Auricular estéreo multimedia con micrófono (HTAU018M)</h3>
+          <div class="prod-foot"><div><span class="prod-price">4,90&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/auricular-estereo-multimedia-con-microfono-htau018m-p-14926.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/circuito-integrado-lm1203bn-lm1203n-1-1282_thumb_187x192.png" alt="Circuito integrado LM1203BN = LM1203N" loading="lazy"></div>
+          <span class="prod-code">Ref. 9941 · Cod. 1282</span>
+          <h3 class="prod-name">Circuito integrado LM1203BN = LM1203N</h3>
+          <div class="prod-foot"><div><span class="prod-price">3,04&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/circuito-integrado-lm1203bn-lm1203n-p-1282.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/resistencia-287k-1-4w-1-pel-met-1-5372_thumb_187x192.png" alt="Resistencia 287K 1/4W 1% - película metálica" loading="lazy"></div>
+          <span class="prod-code">Ref. RIM25P287K · Cod. 5372</span>
+          <h3 class="prod-name">Resistencia 287K 1/4W 1% - película metálica</h3>
+          <div class="prod-foot"><div><span class="prod-price">0,16&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/resistencia-287k-4w-pelicula-metalica-p-5372.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/potenciometro-ajuste-1k-vertical-1-5645_thumb_187x192.png" alt="Potenciómetro ajuste 1K (vertical)" loading="lazy"></div>
+          <span class="prod-code">Cod. 5645</span>
+          <h3 class="prod-name">Potenciómetro ajuste 1K (vertical)</h3>
+          <div class="prod-foot"><div><span class="prod-price">0,50&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/potenciometro-ajuste-1k-vertical-p-5645.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/potenciometro-ajuste-grande-220-14x14mm-vertical-1-628_thumb_187x192.png" alt="Potenciómetro ajuste 220R (vertical grande)" loading="lazy"></div>
+          <span class="prod-code">Cod. 628</span>
+          <h3 class="prod-name">Potenciómetro ajuste 220R (vertical grande)</h3>
+          <div class="prod-foot"><div><span class="prod-price">0,30&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/potenciometro-ajuste-220r-vertical-grande-p-628.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/resistencia-ignifuga-4-7r-1w-1-12339_thumb_187x192.png" alt="Resistencia Ignífuga 4.7R 1W" loading="lazy"></div>
+          <span class="prod-code">Ref. raf01h004.7 · Cod. 12339</span>
+          <h3 class="prod-name">Resistencia Ignífuga 4.7R 1W</h3>
+          <div class="prod-foot"><div><span class="prod-price">0,30&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/resistencia-ignifuga-47r-1w-p-12339.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/adaptador-tnc-h-a-rtnc-m_thumb_187x192.png" alt="Adaptador TNC/H a RTNC/M" loading="lazy"></div>
+          <span class="prod-code">Ref. rg68 · Cod. 12217</span>
+          <h3 class="prod-name">Adaptador TNC/H a RTNC/M</h3>
+          <div class="prod-foot"><div><span class="prod-price">6,52&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/adaptador-tnc-rtnc-p-12217.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+        <article class="prod-card">
+          <div class="prod-thumb"><img src="assets/img/productos/tubo-para-linterna-uv-1-17562_thumb_187x192.png" alt="Tubo para linterna UV" loading="lazy"></div>
+          <span class="prod-code">Ref. LAMP04TBL · Cod. 17562</span>
+          <h3 class="prod-name">Tubo para linterna UV</h3>
+          <div class="prod-foot"><div><span class="prod-price">4,26&nbsp;€</span><span class="prod-iva">IVA incluido</span></div>
+            <a class="prod-link" href="https://planetaelectronico.com/tubo-para-linterna-uv-p-17562.html" target="_blank" rel="noopener" aria-label="Ver producto"><svg><use href="#ic-external"/></svg></a></div>
+        </article>
+
+      </div>
+
+      <div class="section-foot">
+        <a class="btn btn-ghost" href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener">Ver catálogo completo <svg><use href="#ic-arrow-right"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LO MÁS VENDIDO ================= -->
+  <section class="tight" id="mas-vendido">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Ranking en vivo</span>
+        <h2>Lo + vendido</h2>
+        <p>Los cinco productos con más salida de la tienda.</p>
+      </div>
+      <div class="best-grid reveal">
+        <a class="best-card" href="https://planetaelectronico.com/protector-goma-para-cable-negro-c38n-p-7652.html" target="_blank" rel="noopener">
+          <span class="best-rank">1</span>
+          <div class="prod-thumb"><img src="assets/img/productos/protector-goma-para-cable-negro-c38n-1-7652_thumb_65x65.png" alt="Protector goma para cable - negro C38N" loading="lazy"></div>
+          <div class="prod-name">Protector goma para cable — negro C38N</div>
+          <div class="prod-price">0,22&nbsp;€</div>
+        </a>
+        <a class="best-card" href="https://planetaelectronico.com/pin-para-conector-poste-254mm-hembra-p-8210.html" target="_blank" rel="noopener">
+          <span class="best-rank">2</span>
+          <div class="prod-thumb"><img src="assets/img/productos/pin-para-conector-poste-2-54mm-hembra-1-8210_thumb_65x65.png" alt="PIN para conector poste 2.54mm hembra" loading="lazy"></div>
+          <div class="prod-name">PIN para conector poste 2.54mm hembra</div>
+          <div class="prod-price">0,10&nbsp;€</div>
+        </a>
+        <a class="best-card" href="https://planetaelectronico.com/pin-jst-smp-hembra-p-14866.html" target="_blank" rel="noopener">
+          <span class="best-rank">3</span>
+          <div class="prod-thumb"><img src="assets/img/productos/pin-jst-sm-hembra-paso-2-50-1-14866_thumb_65x65.png" alt="PIN JST SMP hembra" loading="lazy"></div>
+          <div class="prod-name">PIN JST SMP hembra</div>
+          <div class="prod-price">0,10&nbsp;€</div>
+        </a>
+        <a class="best-card" href="https://planetaelectronico.com/pin-jst-smp-macho-p-14865.html" target="_blank" rel="noopener">
+          <span class="best-rank">4</span>
+          <div class="prod-thumb"><img src="assets/img/productos/pin-jst-sm-macho-1-14865_thumb_65x65.png" alt="PIN JST SMP macho" loading="lazy"></div>
+          <div class="prod-name">PIN JST SMP macho</div>
+          <div class="prod-price">0,10&nbsp;€</div>
+        </a>
+        <a class="best-card" href="https://planetaelectronico.com/pin-para-conector-poste-396mm-hembra-p-7515.html" target="_blank" rel="noopener">
+          <span class="best-rank">5</span>
+          <div class="prod-thumb"><img src="assets/img/productos/pin-para-conector-poste-3-96mm-hembra-1-7515_thumb_65x65.png" alt="PIN para conector poste 3.96mm hembra" loading="lazy"></div>
+          <div class="prod-name">PIN para conector poste 3.96mm hembra</div>
+          <div class="prod-price">0,06&nbsp;€</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MARCAS ================= -->
+  <section id="marcas">
+    <div class="container">
+      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+        <span class="eyebrow">Distribución directa</span>
+        <h2>Nuestras marcas</h2>
+        <p>Importadores directos y distribuidores oficiales de estas casas.</p>
+      </div>
+      <div class="marquee-wrap reveal">
+        <div class="marquee" id="marquee-bottom">
+          <a href="https://planetaelectronico.com/velleman-m-123.html" target="_blank" rel="noopener" title="VELLEMAN"><img src="assets/img/marcas/Marca_velleman_thumb_115x26.png" alt="VELLEMAN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/liquidacion-electronica-m-141.html" target="_blank" rel="noopener" title="LIQUIDACIÓN ELECTRÓNICA"><img src="assets/img/marcas/Marca_Liquidacion_thumb_115x26.png" alt="LIQUIDACIÓN ELECTRÓNICA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/intronic-m-139.html" target="_blank" rel="noopener" title="INTRONIC"><img src="assets/img/marcas/Marca_Intronic_thumb_115x26.png" alt="INTRONIC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/tx-sistemas-m-138.html" target="_blank" rel="noopener" title="TX SISTEMAS"><img src="assets/img/marcas/Marca_TX_thumb_115x26.png" alt="TX SISTEMAS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/denver-m-137.html" target="_blank" rel="noopener" title="DENVER"><img src="assets/img/marcas/Marca_denver_thumb_115x26.png" alt="DENVER" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fersay-m-136.html" target="_blank" rel="noopener" title="FERSAY"><img src="assets/img/marcas/Marca_Fersay_thumb_115x26.png" alt="FERSAY" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/cebek-m-133.html" target="_blank" rel="noopener" title="CEBEK"><img src="assets/img/marcas/0_Marca_cebek_thumb_115x26.png" alt="CEBEK" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/molgar-m-132.html" target="_blank" rel="noopener" title="MOLGAR"><img src="assets/img/marcas/Marca_molgar_thumb_115x26.png" alt="MOLGAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/nedis-m-131.html" target="_blank" rel="noopener" title="NEDIS"><img src="assets/img/marcas/Marca_nedis_thumb_115x26.png" alt="NEDIS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/importacion-m-130.html" target="_blank" rel="noopener" title="IMPORTACIÓN"><img src="assets/img/marcas/Marca_importacion_thumb_115x26.png" alt="IMPORTACIÓN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/dimelec-m-129.html" target="_blank" rel="noopener" title="DIMELEC"><img src="assets/img/marcas/Marca_dimelec_thumb_115x26.png" alt="DIMELEC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/edc-andalucia-m-128.html" target="_blank" rel="noopener" title="EDC ANDALUCÍA"><img src="assets/img/marcas/Marca_edc_thumb_115x26.png" alt="EDC ANDALUCÍA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fonestar-m-126.html" target="_blank" rel="noopener" title="FONESTAR"><img src="assets/img/marcas/0_Marca_fonestar_thumb_115x26.png" alt="FONESTAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/ariston-m-125.html" target="_blank" rel="noopener" title="ARISTON"><img src="assets/img/marcas/Marca_ariston_thumb_115x26.png" alt="ARISTON" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/electro-dh-m-124.html" target="_blank" rel="noopener" title="ELECTRO DH"><img src="assets/img/marcas/Marca_electrodh_thumb_115x26.png" alt="ELECTRO DH" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/peaktech-m-142.html" target="_blank" rel="noopener" title="PEAKTECH"><img src="assets/img/marcas/Marca_Pektech_thumb_115x26.png" alt="PEAKTECH" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/velleman-m-123.html" target="_blank" rel="noopener" title="VELLEMAN"><img src="assets/img/marcas/Marca_velleman_thumb_115x26.png" alt="VELLEMAN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/liquidacion-electronica-m-141.html" target="_blank" rel="noopener" title="LIQUIDACIÓN ELECTRÓNICA"><img src="assets/img/marcas/Marca_Liquidacion_thumb_115x26.png" alt="LIQUIDACIÓN ELECTRÓNICA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/intronic-m-139.html" target="_blank" rel="noopener" title="INTRONIC"><img src="assets/img/marcas/Marca_Intronic_thumb_115x26.png" alt="INTRONIC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/tx-sistemas-m-138.html" target="_blank" rel="noopener" title="TX SISTEMAS"><img src="assets/img/marcas/Marca_TX_thumb_115x26.png" alt="TX SISTEMAS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/denver-m-137.html" target="_blank" rel="noopener" title="DENVER"><img src="assets/img/marcas/Marca_denver_thumb_115x26.png" alt="DENVER" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fersay-m-136.html" target="_blank" rel="noopener" title="FERSAY"><img src="assets/img/marcas/Marca_Fersay_thumb_115x26.png" alt="FERSAY" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/cebek-m-133.html" target="_blank" rel="noopener" title="CEBEK"><img src="assets/img/marcas/0_Marca_cebek_thumb_115x26.png" alt="CEBEK" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/molgar-m-132.html" target="_blank" rel="noopener" title="MOLGAR"><img src="assets/img/marcas/Marca_molgar_thumb_115x26.png" alt="MOLGAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/nedis-m-131.html" target="_blank" rel="noopener" title="NEDIS"><img src="assets/img/marcas/Marca_nedis_thumb_115x26.png" alt="NEDIS" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/importacion-m-130.html" target="_blank" rel="noopener" title="IMPORTACIÓN"><img src="assets/img/marcas/Marca_importacion_thumb_115x26.png" alt="IMPORTACIÓN" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/dimelec-m-129.html" target="_blank" rel="noopener" title="DIMELEC"><img src="assets/img/marcas/Marca_dimelec_thumb_115x26.png" alt="DIMELEC" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/edc-andalucia-m-128.html" target="_blank" rel="noopener" title="EDC ANDALUCÍA"><img src="assets/img/marcas/Marca_edc_thumb_115x26.png" alt="EDC ANDALUCÍA" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/fonestar-m-126.html" target="_blank" rel="noopener" title="FONESTAR"><img src="assets/img/marcas/0_Marca_fonestar_thumb_115x26.png" alt="FONESTAR" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/ariston-m-125.html" target="_blank" rel="noopener" title="ARISTON"><img src="assets/img/marcas/Marca_ariston_thumb_115x26.png" alt="ARISTON" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/electro-dh-m-124.html" target="_blank" rel="noopener" title="ELECTRO DH"><img src="assets/img/marcas/Marca_electrodh_thumb_115x26.png" alt="ELECTRO DH" loading="lazy"></a>
+          <a href="https://planetaelectronico.com/peaktech-m-142.html" target="_blank" rel="noopener" title="PEAKTECH"><img src="assets/img/marcas/Marca_Pektech_thumb_115x26.png" alt="PEAKTECH" loading="lazy"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONFIANZA ================= -->
+  <section id="confianza">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">¿Por qué confiar en nosotros?</span>
+        <h2>23 años sirviendo componentes con garantía</h2>
+        <p>Resumimos las razones reales por las que miles de clientes repiten en Planeta Electrónico.</p>
+      </div>
+
+      <div class="trust-grid reveal">
+        <div class="trust-card">
+          <div class="trust-icon"><svg><use href="#ic-calendar"/></svg></div>
+          <h3>Experiencia desde 2002</h3>
+          <p>Llevamos más de dos décadas en el mundo de la electrónica y la distribución de componentes, aprendiendo cada año a servir mejor.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><svg><use href="#ic-shield"/></svg></div>
+          <h3>Garantía real</h3>
+          <p>2 años de garantía en todos los productos. Reparaciones de iPhone con 1 año, resto de reparaciones 3 meses y 6 meses en baterías.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><svg><use href="#ic-truck"/></svg></div>
+          <h3>Envíos 100% seguros</h3>
+          <p>Todos los envíos están asegurados a su valor de nuevo. Si algo llega dañado, se reembolsa o se repone sin esperas.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><svg><use href="#ic-tag"/></svg></div>
+          <h3>Precios de importador</h3>
+          <p>Somos importadores directos con grandes acuerdos de marca, lo que nos permite ofrecer precios muy competitivos a diario.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><svg><use href="#ic-headset"/></svg></div>
+          <h3>Contacto personal</h3>
+          <p>Atendemos por WhatsApp, email y teléfono — <span class="mono">952 323 815</span> / <span class="mono">952 339 668</span> — o en nuestra tienda física de Málaga.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><svg><use href="#ic-star"/></svg></div>
+          <h3>Manuales y opiniones</h3>
+          <p>Dedicamos tiempo a crear manuales, vídeos y fotos de uso, y ponemos a disposición las opiniones reales de los clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AVISOS / PROMOS (imágenes reales del sitio) ================= -->
+  <section class="tight" id="avisos">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Avisos de la tienda</span>
+        <h2>Novedades y accesos rápidos</h2>
+      </div>
+      <div class="promo-grid reveal">
+        <a class="promo-card" href="https://planetaelectronico.com/visita-virtual-i-18.html" target="_blank" rel="noopener"><img src="assets/img/banners/16_3_visita-virtual.png" alt="Visita virtual a la tienda"></a>
+        <a class="promo-card" href="https://planetaelectronico.com/" target="_blank" rel="noopener"><img src="assets/img/banners/2_3_cursos-de-informtica.png" alt="Cursillos de electrónica práctica"></a>
+        <a class="promo-card" href="https://wa.me/34601394075" target="_blank" rel="noopener"><img src="assets/img/banners/3_3_atendemos-whatsapp.png" alt="Atendemos por WhatsApp"></a>
+        <a class="promo-card" href="https://planetaelectronico.com/formas-de-pago-i-10.html" target="_blank" rel="noopener"><img src="assets/img/banners/4_3_pagos-100-seguros.jpg" alt="Pagos 100% seguros"></a>
+        <a class="promo-card" href="https://planetaelectronico.com/" target="_blank" rel="noopener"><img src="assets/img/banners/5_3_envos-gratis.png" alt="Productos con envío gratis"></a>
+        <a class="promo-card" href="https://planetaelectronico.com/servicio-tecnico-c-1248.html" target="_blank" rel="noopener"><img src="assets/img/banners/6_3_info-de-reparacion.jpg" alt="Información de reparación"></a>
+        <a class="promo-card" href="https://www.youtube.com/@planetaelectronico" target="_blank" rel="noopener"><img src="assets/img/banners/91_3_g_youtube_080626.png" alt="Canal de YouTube"></a>
+        <a class="promo-card" href="https://wa.me/34601394075" target="_blank" rel="noopener"><img src="assets/img/banners/94_3_g_consultas-whatsapp-080626.png" alt="Consultas por WhatsApp"></a>
+        <a class="promo-card" href="https://planetaelectronico.com/" target="_blank" rel="noopener"><img src="assets/img/banners/93_3_g_tiktok_080626.jpg" alt="Planeta Electrónico en TikTok"></a>
+        <a class="promo-card" href="https://planetaelectronico.com/" target="_blank" rel="noopener"><img src="assets/img/banners/89_3_g_cerrado_verano_2025.jpg" alt="Aviso de cierre por verano 2025"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NOSOTROS ================= -->
+  <section id="nosotros">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Quiénes somos</span>
+        <h2>Sobre Planeta Electrónico</h2>
+      </div>
+
+      <div class="about-wrap reveal">
+        <div class="about-copy">
+          <p>Somos una empresa especialista dedicada a la venta de todo tipo de productos electrónicos para el consumo. Nuestra misión es ofrecer a los usuarios finales precios bajos y atractivos, fomentando la confianza en las compras por internet.</p>
+          <p>Nuestra gran capacidad de compra nos permite ofrecer precios muy asequibles, un amplio abanico de productos, tiempos de entrega reducidos y un excelente nivel de servicio. <strong>Los clientes que compran en Planeta Electrónico, repiten.</strong></p>
+          <p>Atendemos por WhatsApp, correo electrónico y teléfono, poniendo al servicio del cliente todos los canales que nos da la red para estar cerca, las 24 horas del día, los 365 días del año.</p>
+          <p><strong>Planeta Electrónico no pertenece a ningún grupo de ventas</strong> ni tiene asociación con otras empresas del sector que puedan tener nombres parecidos o inducir a confusión. No vendemos artículos en páginas de segunda mano ni en aplicaciones móviles como Wallapop.</p>
+        </div>
+
+        <div class="legal-card">
+          <h3>Domicilio social</h3>
+          <div class="legal-row"><span>Razón social</span><span>Planeta Electrónico<br>Carlos Enrique Martín Suárez</span></div>
+          <div class="legal-row"><span>NIF</span><span class="mono">44579333C</span></div>
+          <div class="legal-row"><span>Dirección</span><span>C/ Saint Exupery nº 16, local 2<br>29007 Málaga, Andalucía, España</span></div>
+          <div class="legal-row"><span>Teléfono</span><span>952 323 815<br>952 339 668</span></div>
+          <div class="legal-row"><span>Email</span><span>tienda@planetaelectronico.com</span></div>
+          <div class="legal-row"><span>Litigios UE</span><span><a href="https://ec.europa.eu/consumers/odr/main/?event=main.home2.show" target="_blank" rel="noopener">Plataforma ODR ↗</a></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HORARIO / PAGO / ENVÍOS ================= -->
+  <section class="tight">
+    <div class="container">
+      <div class="info-grid reveal">
+        <div class="info-card">
+          <h3><svg><use href="#ic-clock"/></svg> Horario</h3>
+          <table>
+            <tr><td>Tienda · Lunes a Viernes</td><td>10:00–15:00h</td></tr>
+            <tr><td>Tienda · Sábado</td><td>10:30–13:30h</td></tr>
+            <tr><td>Envíos · Lunes a Viernes</td><td>10:00–13:30h</td></tr>
+            <tr><td>Pedidos urgentes · Lun–Jue</td><td>10:00–13:00h</td></tr>
+          </table>
+        </div>
+        <div class="info-card">
+          <h3><svg><use href="#ic-card"/></svg> Formas de pago</h3>
+          <ul>
+            <li>Transferencia bancaria</li>
+            <li>PayPal</li>
+            <li>Tarjeta de crédito / débito</li>
+            <li>Contrarreembolso</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3><svg><use href="#ic-truck"/></svg> Envíos y devoluciones</h3>
+          <ul>
+            <li>Envíos nacionales (España)</li>
+            <li>Envíos a toda Europa</li>
+            <li>Envíos al resto del mundo</li>
+            <li>Gestión de devoluciones</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACTO ================= -->
+  <section id="contacto">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Hablemos</span>
+        <h2>Contacto</h2>
+        <p>¿Dudas sobre un producto o un pedido? Escribinos por WhatsApp o pasá por la tienda en Málaga.</p>
+      </div>
+
+      <div class="contact-wrap reveal">
+        <div class="contact-card">
+          <h3 style="font-size:18px;margin-bottom:4px;">Planeta Electrónico</h3>
+          <p class="muted" style="font-size:14px;">Tienda de electrónica y componentes electrónicos online</p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="ic"><svg><use href="#ic-pin"/></svg></span>
+              <div><h4>Dirección</h4><p>C/ Saint Exupery nº 16, local 2 — 29007 Málaga, España</p></div>
+            </div>
+            <div class="contact-item">
+              <span class="ic"><svg><use href="#ic-phone"/></svg></span>
+              <div><h4>Teléfono</h4><p><a href="tel:+34952323815">952 323 815</a> · <a href="tel:+34952339668">952 339 668</a></p></div>
+            </div>
+            <div class="contact-item">
+              <span class="ic"><svg><use href="#ic-whatsapp"/></svg></span>
+              <div><h4>WhatsApp</h4><p><a href="https://wa.me/34601394075" target="_blank" rel="noopener">601 394 075</a></p></div>
+            </div>
+            <div class="contact-item">
+              <span class="ic"><svg><use href="#ic-mail"/></svg></span>
+              <div><h4>Email</h4><p><a href="mailto:tienda@planetaelectronico.com">tienda@planetaelectronico.com</a></p></div>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a class="social-pill" href="https://www.facebook.com/planetaelectronicocom" target="_blank" rel="noopener"><b>FB</b> Facebook · 2.421</a>
+            <a class="social-pill" href="https://twitter.com/planelectronico" target="_blank" rel="noopener"><b>X</b> Twitter · 386</a>
+            <a class="social-pill" href="https://www.pinterest.com/planetaelectron/" target="_blank" rel="noopener"><b>PIN</b> Pinterest · 25</a>
+            <a class="social-pill" href="https://www.youtube.com/@planetaelectronico" target="_blank" rel="noopener"><b>YT</b> YouTube · 28</a>
+          </div>
+        </div>
+
+        <div class="visit-card">
+          <div>
+            <span class="orbit-mark" aria-hidden="true"><span class="ring"></span><span class="planet"></span><span class="electron"></span></span>
+            <h3>Visitanos en Málaga</h3>
+            <p>Zona de actividad electrónica de Málaga, Andalucía. Atención en tienda de lunes a sábado.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=C%2F+Saint+Exupery+16+local+2%2C+29007+M%C3%A1laga" target="_blank" rel="noopener">Cómo llegar <svg><use href="#ic-arrow-right"/></svg></a>
+            <a class="btn btn-whatsapp" href="https://wa.me/34601394075" target="_blank" rel="noopener"><svg><use href="#ic-whatsapp"/></svg> WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-band reveal" style="margin-top:56px;">
+        <span class="eyebrow" style="justify-content:center;">Zona distribuidores</span>
+        <h2>¿Tenés una tienda o negocio?</h2>
+        <p>Trabajamos con distribuidores y profesionales del sector. Escribinos para conocer condiciones especiales.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:tienda@planetaelectronico.com">Escribir por email</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/34601394075" target="_blank" rel="noopener"><svg><use href="#ic-whatsapp"/></svg> WhatsApp directo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <span class="orbit-mark" aria-hidden="true"><span class="ring"></span><span class="planet"></span><span class="electron"></span></span>
+          <span>Planeta<br><small>Electrónico</small></span>
+        </a>
+        <p>Tienda de electrónica y componentes electrónicos online desde 2002. Sabemos, jugamos y consumimos electrónica.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Tienda</h4>
+        <ul>
+          <li><a href="#novedades">Novedades</a></li>
+          <li><a href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener">Ofertas</a></li>
+          <li><a href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener">Liquidación</a></li>
+          <li><a href="https://planetaelectronico.com/categories.php" target="_blank" rel="noopener">Catálogo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Información</h4>
+        <ul>
+          <li><a href="https://planetaelectronico.com/sobre-nosotros-i-5.html" target="_blank" rel="noopener">Sobre nosotros</a></li>
+          <li><a href="https://planetaelectronico.com/por-que-confiar-en-nosotros-i-11.html" target="_blank" rel="noopener">¿Por qué confiar en nosotros?</a></li>
+          <li><a href="https://planetaelectronico.com/como-comprar-i-12.html" target="_blank" rel="noopener">Cómo comprar</a></li>
+          <li><a href="https://planetaelectronico.com/zona-distribuidores-i-7.html" target="_blank" rel="noopener">Zona distribuidores</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="https://planetaelectronico.com/terminos-condiciones-de-uso-i-3.html" target="_blank" rel="noopener">Aviso legal</a></li>
+          <li><a href="https://planetaelectronico.com/politica-de-privacidad-i-13.html" target="_blank" rel="noopener">Política de privacidad</a></li>
+          <li><a href="https://planetaelectronico.com/politica-de-cookies-i-6.html" target="_blank" rel="noopener">Política de cookies</a></li>
+          <li><a href="https://planetaelectronico.com/gastos-de-envios-devoluciones-i-1.html" target="_blank" rel="noopener">Envíos y devoluciones</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Planeta Electrónico — Tienda de electrónica y componentes electrónicos online. Todos los derechos reservados.</span>
+      <div class="badges">
+        <span>IVA incluido en todos los precios</span>
+        <span>PVPs válidos salvo error tipográfico</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner">
+  <p>Planeta Electrónico solicita su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real Decreto-ley 13/2012. Si continúa navegando, consideramos que acepta su uso. <a href="https://planetaelectronico.com/politica-de-cookies-i-6.html" target="_blank" rel="noopener">Ver política de cookies</a>.</p>
+  <button class="btn btn-primary" data-accept>Acepto</button>
+</div>
+
+<button class="to-top" aria-label="Volver arriba"><svg><use href="#ic-up"/></svg></button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
